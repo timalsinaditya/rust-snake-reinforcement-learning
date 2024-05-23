@@ -1,0 +1,8 @@
+fn main() {
+    println!("Hello, world!");
+    let a = square(5);
+}
+
+fn square(x: i32) -> i32 {
+    x*x
+}
